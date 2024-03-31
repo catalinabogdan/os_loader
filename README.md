@@ -1,6 +1,6 @@
 # os_loader
 
-This programme implements an ELF executables loader, that treats in the 
+This program implements an ELF executables loader, that treats in the 
 loader.c file the error signals that might occur . When the signal differs from
 SIGSEGV, it's not contained within the segments of the file or the faulty page
 was already mapped, the default handler is called. Otherwise, after browsing
